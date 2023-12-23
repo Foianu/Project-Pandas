@@ -12,59 +12,106 @@
 	<body> 
         <header>
             <h1>Pandas</h1>
-            <nav class="navbar">
-                <ul>
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>News</a></li>
-                </ul>
-            </nav>
+            <div class="image">
+                <img src="img/intropanda.png" alt="Code" width="200" height="200">
+            </div>
         </header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">News</a></li>
+            </ul>
+        </nav>
 
         <main>
             <section class="content">
                 <div class="text">
-                    <h1>Python data <br> analysis toolkit</h1>
-                    <p>Pandas is a Python package that provides fast, flexible, and <br> expressive data structures designed to make working with <br>"relational" or "labeled" data both easy and intuitive.</p>
+                    <h1>Python data analysis toolkit</h1>
+                    <p>Pandas is a Python package that provides fast, flexible, and expressive data structures designed to make working with "relational" or "labeled" data both easy and intuitive.</p>
                     <button>Sign up</button>
-                </div>
-    
-                <div class="image">
-                    <img src="img/intropanda.png" alt="Code" width="600" height="600">
                 </div>
             </section>
 
+            <section class="background-image">
+            </section>
+
             <section class="information">
-                <h2>Information</h2>
-    
+                <div class="text">
+                    <h1>Information</h1>
+                    <p>Pandas is a Python package that provides fast, flexible, and expressive data structures designed to make working with "relational" or "labeled" data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, real world data analysis in Python. Additionally, it has the broader goal of becoming the most powerful and flexible open source data analysis / manipulation tool available in any language. It is already well on its way towards this goal.</p>
+                    <a class="source" href="https://pandas.pydata.org"><span>Source</span></a>
+                </div>
+            </section>
+                
+            <section class="cards-information"></section>
                 <div class="cards">
                     <div class="card">
-                        <img src="img/P1.jpg" alt="Panda1" width="200" height="200">
                         <p>Working with missing data</p>
+                        <img src="img/P1.jpg" alt="Panda1" width="280" height="280">
+                        <button>discover</button>
                     </div>  
     
                     <div class="card">
-                        <img src="img/P2.jpg" alt="Panda2" width="200" height="200">
                         <p>Data structures</p>
+                        <img src="img/P2.jpg" alt="Panda2" width="280" height="280">
+                        <button>discover</button>
                     </div>
     
                     <div class="card">
-                        <img src="img/P3.jpg" alt="Panda3" width="200" height="200">
                         <p>DataFrame</p>
+                        <img src="img/P3.jpg" alt="Panda3" width="280" height="280">
+                        <button>discover</button>
                     </div>
     
-                    <div class="card">
-                        <img src="img/P4.jpg" alt="Panda4" width="200" height="200">
+                    <div class="card">                      
                         <p>Indexing and selecting data</p>
+                        <img src="img/P4.jpg" alt="Panda4" width="280" height="280">
+                        <button>discover</button>
                     </div>
                 </div>
             </section>  
 
-            <section class="quote">
-                <div class="text">
-                    <p>Pandas is a Python package that provides fast, flexible, and expressive data structures designed to make working with "relational" or "labeled" data both easy and intuitive. It aims to be the fundamental high-level building block for doing practical, real world data analysis in Python. Additionally, it has the broader goal of becoming the most powerful and flexible open source data analysis / manipulation tool available in any language. It is already well on its way towards this goal.</p>
-                    <a class="source" href="https://pandas.pydata.org"><span>Source</span></a>
-                </div>
+            <section class="accordion">
+                <h2></h2>
+                
+                <details class="mission">
+                    <summary>Mission</summary>
+                        <p>Pandas aims to be the fundamental high-level building block for doing practical, real world data analysis in Python. Additionally, it has the broader goal of becoming the most powerful and flexible open source data analysis / manipulation tool available in any language.</p>
+                </details>
+
+                <details class="vision">
+                    <summary>Vision</summary>
+                        <div class="text">
+                            <p>A world where data analytics and manipulation software is:</p>
+                            <ul>
+                                <li>Accessible to everyone</li>
+                                <li>Free for users to use and modify</li>
+                                <li>Flexible</li>
+                                <li>Powerful</li>
+                                <li>Easy to use</li>
+                                <li>Fast</li>
+                            </ul>
+                        </div>
+                </details>
+
+                <details class="values">
+                    <summary>Values</summary>
+                        <p>Is in the core of pandas to be respectful and welcoming with everybody, users, contributors and the broader community.</p>
+                </details>
+            </section>
+
+            <section class="contact">
+                <form>
+                    <h1>Contact Us</h1>
+                    <input type="text" id="firstName" placeholder="First Name" required>
+                    <input type="text" id="lastName" placeholder="Last Name" required>
+                    <input type="email" id="email" placeholder="Email" required>
+                    <input type="text" id="mobile" placeholder="Mobile" required>
+                    <h4>Message</h4>
+                    <textarea required></textarea>
+                    <input type="submit" value="Send" id="button">
+                </form>
             </section>
 
             <section class="modal">
@@ -78,7 +125,17 @@
             </section>
         </main>
         <footer>
-            <p>Copyright @Pandas 2023</p>
+            <div class="contentinfo">
+                <p>Copyright @Pandas 2023</p>
+                <p>Privacy Policy</p>
+                <p>Terms and Conditions</p>
+            </div>
+
+            <div class="social-icons">
+                <img src="./img/vimeo.svg" alt="Vimeo" width="40" height="40">
+                <img src="./img/instagram.svg" alt="Instagram" width="40" height="40">
+                <img src="./img/facebook.svg" alt="Facebook" width="40" height="40">
+            </div>
         </footer>
 
     </body>   
