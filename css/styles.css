@@ -111,15 +111,6 @@ header .image {
 
 
 /*background-image*/
-.background-image {
-
-    background-image: url("../img/coding-mov.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    padding-top: 400px;
-    padding-bottom: 400px;
-}
 
 
 
@@ -162,6 +153,8 @@ header .image {
     background: #141414;
     padding-top: 100px;
     padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
 
     border-radius: 5px;
     color: #fff;
@@ -272,7 +265,7 @@ header .image {
     align-items: center;
 
     background: #fc6666;
-    color: #000;
+    color: #fff;
 }
 
 .contact form {
@@ -308,6 +301,7 @@ header .image {
     font-size: 14px;
     margin-bottom: 10px;
     border-bottom: 2px solid #fc6666;
+    color: #fff;
 }
 
 .contact form input::placeholder {
@@ -328,7 +322,6 @@ header .image {
     color: #fff;
     border-bottom: 2px solid #fc6666;
     font-size: 14px;
-    padding-left: 150px;
     margin: 10px;
     
     min-width: 300px;
@@ -402,14 +395,46 @@ footer {
 
     background-color: #1d1d1d;
     text-align: center;
-    padding: 10px;
+    padding: 10px 100px 10px 100px;
 
     color: rgb(83, 83, 83);
     font-size: 12px;
 }
 
-.contentinfo {
+footer .contentinfo {
     display: flex;
-
+    gap: 10px;
 }
 
+
+#vimeo_svg:hover #vimeo_circle {
+    stroke: #fff;
+}
+
+#vimeo_svg:hover #vimeo_v {
+    fill: rgb(83, 83, 83);
+}
+
+#instagram_svg #instagram_circle {
+    stroke: #fff;
+}
+
+#instagram_svg:hover #instagram_border {
+    fill: rgb(83, 83, 83);
+}
+
+#instagram_svg:hover #instagram_camera {
+    fill: rgb(83, 83, 83);
+}
+
+#instagram_svg:hover #instagram_camerasmall {
+    fill: rgb(83, 83, 83);
+}
+
+#facebook_svg #facebook_circle {
+    stroke: #fff;
+}
+
+#facebook_svg:hover #facebook_f {
+    fill: rgb(83, 83, 83);
+}
